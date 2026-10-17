@@ -1,0 +1,14 @@
+{
+  "name": "fastapi-angular-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev:backend": "cd backend && .venv\\Scripts\\python.exe -m uvicorn main:app --reload",
+    "dev:frontend": "cd frontend && ng serve",
+    "dev": "npx concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "seed": "cd seed_scripts && ..\\backend\\.venv\\Scripts\\python.exe seed.py",
+    "embed": "cd seed_scripts && ..\\backend\\.venv\\Scripts\\python.exe generate_embeddings.py"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

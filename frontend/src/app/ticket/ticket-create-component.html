@@ -1,0 +1,46 @@
+<main class="create-page">
+  <header class="page-header">
+    <h1>Create New Ticket</h1>
+    <p class="subtitle">Add a ticket to the new-ticket queue.</p>
+  </header>
+
+  <form class="ticket-form" (ngSubmit)="submitTicket()" #ticketForm="ngForm">
+    <label for="subject">Subject <span aria-hidden="true">*</span></label>
+    <input
+      id="subject"
+      name="subject"
+      type="text"
+      [(ngModel)]="subject"
+      required
+      maxlength="500"
+      placeholder="Summarize the issue"
+      [disabled]="isSubmitting"
+    />
+
+    <label for="description">Description</label>
+    <textarea
+      id="description"
+      name="description"
+      [(ngModel)]="description"
+      rows="6"
+      placeholder="Add details to help find similar resolved tickets"
+      [disabled]="isSubmitting"
+    ></textarea>
+
+    <p class="field-note">
+      The ticket ID and embedding are generated automatically when you submit.
+    </p>
+
+    <p *ngIf="error" class="form-message error" role="alert">{{ error }}</p>
+    <p *ngIf="createdTicket" class="form-message success" role="status">
+      Ticket {{ createdTicket.ticket_id }} was created and added to the queue.
+    </p>
+
+    <div class="form-actions">
+      <button type="submit" [disabled]="isSubmitting || ticketForm.invalid">
+        {{ isSubmitting ? 'Creating…' : 'Create ticket' }}
+      </button>
+      <a routerLink="/MyTickets">Back to ticket queue</a>
+    </div>
+  </form>
+</main>

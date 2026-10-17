@@ -1,0 +1,34 @@
+<div class="page">
+  <div *ngIf="isLoading" class="state-message">Loading ticket…</div>
+  <div *ngIf="error" class="state-message error">{{ error }}</div>
+
+  <article *ngIf="ticket && !isLoading" class="ticket-card">
+    <header class="ticket-header">
+      <span class="mono ticket-no">{{ ticket.ticket_id }}</span>
+      <span class="status">{{ ticket.status }}</span>
+    </header>
+
+    <h1>{{ ticket.subject }}</h1>
+
+    <div class="meta-row">
+      <div class="meta-item">
+        <span class="meta-label">Category</span>
+        <span class="badge">{{ ticket.category }}</span>
+      </div>
+      <div class="meta-item" *ngIf="ticket.created_at">
+        <span class="meta-label">Created At</span>
+        <span>{{ ticket.created_at }}</span>
+      </div>
+    </div>
+
+    <section class="block" *ngIf="ticket.description">
+      <h2>Description</h2>
+      <p>{{ ticket.description }}</p>
+    </section>
+
+    <section class="block solution" *ngIf="ticket.resolution_notes">
+      <h2>Resolution Notes</h2>
+      <p>{{ ticket.resolution_notes }}</p>
+    </section>
+  </article>
+</div>

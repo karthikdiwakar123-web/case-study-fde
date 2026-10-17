@@ -1,0 +1,504 @@
+{
+  "new_tickets": [
+    {
+      "ticket_id": "NT-1",
+      "subject": "Historical ticket list keeps sorting incorrectly",
+      "description": "This started after a recent a configuration change. The customer is seeing the action keeps retrying and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-2",
+      "subject": "Printer keeps dropping off WiFi",
+      "description": "This appears to affect desktop users only. Users are still able to do some tasks, but the action keeps retrying."
+    },
+    {
+      "ticket_id": "NT-3",
+      "subject": "Dashboard totals differ from export totals",
+      "description": "This appears to affect admins only. Users are still able to do some tasks, but the screen remains blank."
+    },
+    {
+      "ticket_id": "NT-4",
+      "subject": "Data import hangs at 90 percent",
+      "description": "A customer working in the production tenant reported a recurring timeout. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-5",
+      "subject": "Automation rule is firing twice",
+      "description": "The issue is reproducible when using the mobile app in offline mode. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-6",
+      "subject": "Scheduled report never emailed",
+      "description": "This started after a recent the migration to the new tenant. The customer is seeing the screen remains blank and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-7",
+      "subject": "Historical ticket list keeps sorting incorrectly",
+      "description": "Customer is unable to complete the report generation and receives an error message saying HTTP 500."
+    },
+    {
+      "ticket_id": "NT-8",
+      "subject": "Historical ticket list keeps sorting incorrectly",
+      "description": "The user states that unexpected duplicate records. The problem appears for a single customer workspace and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-9",
+      "subject": "Support portal search is returning no results",
+      "description": "Customer is unable to complete the export workflow and receives an error message saying bad request."
+    },
+    {
+      "ticket_id": "NT-10",
+      "subject": "Attachment upload fails after 5 MB",
+      "description": "The issue is reproducible when using the mobile app in offline mode. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-11",
+      "subject": "User can't download exported CSV",
+      "description": "This appears to affect mobile users only. Users are still able to do some tasks, but the action keeps retrying."
+    },
+    {
+      "ticket_id": "NT-12",
+      "subject": "Data import hangs at 90 percent",
+      "description": "The user states that unexpected duplicate records. The problem appears for desktop users only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-13",
+      "subject": "App shows stale order status after update",
+      "description": "Customer reports that the issue started today and occurs on the web dashboard. They have tried restarting the browser."
+    },
+    {
+      "ticket_id": "NT-14",
+      "subject": "Webhook events are not arriving to our endpoint",
+      "description": "The issue is reproducible when switching tenants after login. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-15",
+      "subject": "Historical ticket list keeps sorting incorrectly",
+      "description": "A customer working in their test workspace reported a login failure for a valid user. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-16",
+      "subject": "Calendar invites show wrong timezone",
+      "description": "Customer is unable to complete the report generation and receives an error message saying invalid token."
+    },
+    {
+      "ticket_id": "NT-17",
+      "subject": "OpenAPI schema is not updating",
+      "description": "The user states that a recurring timeout. The problem appears for desktop users only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-18",
+      "subject": "Customer cannot upload profile photo",
+      "description": "A customer working in their test workspace reported a persistent notification problem. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-19",
+      "subject": "Invoice PDF is blank when downloaded",
+      "description": "Customer is unable to complete the monthly billing update and receives an error message saying session expired."
+    },
+    {
+      "ticket_id": "NT-20",
+      "subject": "Customer sees an expired session banner every few minutes",
+      "description": "This started after a recent a scheduled update. The customer is seeing the action keeps retrying and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-21",
+      "subject": "Search results are missing recent tickets",
+      "description": "The issue is reproducible when reopening the same case from a shared link. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-22",
+      "subject": "User sees duplicate notifications",
+      "description": "The issue is reproducible when running the export on a large dataset. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-23",
+      "subject": "Scheduled report never emailed",
+      "description": "A customer working in the login portal reported a recurring timeout. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-24",
+      "subject": "App shows stale order status after update",
+      "description": "This started after a recent the recent release. The customer is seeing the screen remains blank and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-25",
+      "subject": "Attachment upload fails after 5 MB",
+      "description": "This appears to affect mobile users only. Users are still able to do some tasks, but a timeout error appears."
+    },
+    {
+      "ticket_id": "NT-26",
+      "subject": "File download fails on edge browser",
+      "description": "The issue is reproducible when switching tenants after login. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-27",
+      "subject": "User cannot access workspace after role change",
+      "description": "Customer reports that the issue started after the weekend and occurs on the login portal. They have tried using incognito mode."
+    },
+    {
+      "ticket_id": "NT-28",
+      "subject": "Support bot generates irrelevant suggestions",
+      "description": "This started after a recent the recent release. The customer is seeing the page flashes and reloads and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-29",
+      "subject": "Session expires unexpectedly during work",
+      "description": "This appears to affect only a few accounts. Users are still able to do some tasks, but the data is stale."
+    },
+    {
+      "ticket_id": "NT-30",
+      "subject": "Order export has missing rows",
+      "description": "The account is impacted by a recurring timeout. It started after the migration to the new tenant and has been happening for the last after the latest deploy."
+    },
+    {
+      "ticket_id": "NT-31",
+      "subject": "Data export includes duplicate contacts",
+      "description": "This started after a recent a scheduled update. The customer is seeing the data is stale and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-32",
+      "subject": "API rate limit errors appear in production",
+      "description": "The user states that a blank page after submit. The problem appears for desktop users only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-33",
+      "subject": "Knowledge base article won't load in Safari",
+      "description": "This started after a recent the recent release. The customer is seeing the page flashes and reloads and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-34",
+      "subject": "Dashboard totals differ from export totals",
+      "description": "Customer is unable to complete the monthly billing update and receives an error message saying HTTP 500."
+    },
+    {
+      "ticket_id": "NT-35",
+      "subject": "Slack alert has stopped sending",
+      "description": "Customer reports that the issue started last night and occurs on their test workspace. They have tried clearing cache."
+    },
+    {
+      "ticket_id": "NT-36",
+      "subject": "SSO login is timing out for one tenant",
+      "description": "Customer reports that the issue started last night and occurs on the production tenant. They have tried using a different account."
+    },
+    {
+      "ticket_id": "NT-37",
+      "subject": "Customer cannot change their default language",
+      "description": "The user states that missing data in the latest report. The problem appears for admins only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-38",
+      "subject": "File upload stalls on large attachments",
+      "description": "This appears to affect mobile users only. Users are still able to do some tasks, but the action keeps retrying."
+    },
+    {
+      "ticket_id": "NT-39",
+      "subject": "User sees duplicate notifications",
+      "description": "A customer working in the staging environment reported a login failure for a valid user. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-40",
+      "subject": "Data refresh is delayed by 2 hours",
+      "description": "The account is impacted by a recurring timeout. It started after a configuration change and has been happening for the last this morning."
+    },
+    {
+      "ticket_id": "NT-41",
+      "subject": "Background job retries endlessly",
+      "description": "This appears to affect only a few accounts. Users are still able to do some tasks, but the screen remains blank."
+    },
+    {
+      "ticket_id": "NT-42",
+      "subject": "CSV export is returning corrupted rows",
+      "description": "This appears to affect all users in the tenant. Users are still able to do some tasks, but the page flashes and reloads."
+    },
+    {
+      "ticket_id": "NT-43",
+      "subject": "Report builder crashes with large date range",
+      "description": "Customer reports that the issue started today and occurs on the login portal. They have tried restarting the browser."
+    },
+    {
+      "ticket_id": "NT-44",
+      "subject": "Custom report keeps reloading endlessly",
+      "description": "This appears to affect all users in the tenant. Users are still able to do some tasks, but the data is stale."
+    },
+    {
+      "ticket_id": "NT-45",
+      "subject": "Customer cannot reopen a closed ticket",
+      "description": "This appears to affect only a few accounts. Users are still able to do some tasks, but the page flashes and reloads."
+    },
+    {
+      "ticket_id": "NT-46",
+      "subject": "Scheduled sync starts late every day",
+      "description": "The user states that a login failure for a valid user. The problem appears for a single customer workspace and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-47",
+      "subject": "Case attachment preview is broken",
+      "description": "Customer is unable to complete the export workflow and receives an error message saying session expired."
+    },
+    {
+      "ticket_id": "NT-48",
+      "subject": "API rate limit errors appear in production",
+      "description": "Customer is unable to complete the monthly billing update and receives an error message saying HTTP 500."
+    },
+    {
+      "ticket_id": "NT-49",
+      "subject": "Ticket comments are not saving",
+      "description": "This started after a recent a scheduled update. The customer is seeing the action keeps retrying and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-50",
+      "subject": "CRM sync shows stale account status",
+      "description": "The user states that missing data in the latest report. The problem appears for only a few accounts and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-51",
+      "subject": "Revenue report is missing last week's data",
+      "description": "A customer working in the login portal reported a persistent notification problem. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-52",
+      "subject": "User cannot open shared folder link",
+      "description": "This appears to affect only a few accounts. Users are still able to do some tasks, but a timeout error appears."
+    },
+    {
+      "ticket_id": "NT-53",
+      "subject": "Page is timing out when opening case history",
+      "description": "A customer working in the login portal reported a recurring timeout. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-54",
+      "subject": "Report filter shows stale values",
+      "description": "The user states that a login failure for a valid user. The problem appears for mobile users only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-55",
+      "subject": "New API credentials are rejected",
+      "description": "This appears to affect all users in the tenant. Users are still able to do some tasks, but the page flashes and reloads."
+    },
+    {
+      "ticket_id": "NT-56",
+      "subject": "Can't log in after password reset",
+      "description": "Customer is unable to complete the login flow and receives an error message saying timeout."
+    },
+    {
+      "ticket_id": "NT-57",
+      "subject": "Customer cannot change their default language",
+      "description": "The issue is reproducible when opening the dashboard from a fresh browser. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-58",
+      "subject": "Status badge is showing the wrong color",
+      "description": "Customer reports that the issue started last night and occurs on the web dashboard. They have tried switching devices."
+    },
+    {
+      "ticket_id": "NT-59",
+      "subject": "Attachment upload fails after 5 MB",
+      "description": "The issue is reproducible when using the mobile app in offline mode. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-60",
+      "subject": "Revenue report is missing last week's data",
+      "description": "Customer is unable to complete the monthly billing update and receives an error message saying bad request."
+    },
+    {
+      "ticket_id": "NT-61",
+      "subject": "Order export has missing rows",
+      "description": "The user states that unexpected duplicate records. The problem appears for admins only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-62",
+      "subject": "Welcome email never reaches new users",
+      "description": "This started after a recent a scheduled update. The customer is seeing the screen remains blank and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-63",
+      "subject": "Dashboard totals differ from export totals",
+      "description": "A customer working in the mobile app reported a blank page after submit. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-64",
+      "subject": "Data export includes duplicate contacts",
+      "description": "Customer reports that the issue started the last 2 hours and occurs on the mobile app. They have tried switching devices."
+    },
+    {
+      "ticket_id": "NT-65",
+      "subject": "Page is timing out when opening case history",
+      "description": "This started after a recent a failed deployment. The customer is seeing the action keeps retrying and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-66",
+      "subject": "Team dashboard is missing a teammate's updates",
+      "description": "The issue is reproducible when reopening the same case from a shared link. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-67",
+      "subject": "CRM sync shows stale account status",
+      "description": "The issue is reproducible when reopening the same case from a shared link. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-68",
+      "subject": "Attachment upload fails after 5 MB",
+      "description": "Customer is unable to complete the data sync and receives an error message saying timeout."
+    },
+    {
+      "ticket_id": "NT-69",
+      "subject": "Order export has missing rows",
+      "description": "This appears to affect all users in the tenant. Users are still able to do some tasks, but a timeout error appears."
+    },
+    {
+      "ticket_id": "NT-70",
+      "subject": "Customer cannot access reports from partner account",
+      "description": "A customer working in the web dashboard reported a persistent notification problem. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-71",
+      "subject": "Patch release notification never arrived",
+      "description": "Customer is unable to complete the report generation and receives an error message saying timeout."
+    },
+    {
+      "ticket_id": "NT-72",
+      "subject": "Email notifications not sending",
+      "description": "The user states that a blank page after submit. The problem appears for desktop users only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-73",
+      "subject": "API token stopped working overnight",
+      "description": "A customer working in the staging environment reported a login failure for a valid user. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-74",
+      "subject": "Integration sync job has stopped",
+      "description": "Customer reports that the issue started after the weekend and occurs on their test workspace. They have tried using a different account."
+    },
+    {
+      "ticket_id": "NT-75",
+      "subject": "Bulk import stops after a single bad row",
+      "description": "The issue is reproducible when opening the dashboard from a fresh browser. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-76",
+      "subject": "Knowledge base search fails on special characters",
+      "description": "Customer reports that the issue started this morning and occurs on the staging environment. They have tried using incognito mode."
+    },
+    {
+      "ticket_id": "NT-77",
+      "subject": "Support bot generates irrelevant suggestions",
+      "description": "A customer working in the login portal reported a persistent notification problem. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-78",
+      "subject": "User cannot access workspace after role change",
+      "description": "This started after a recent the migration to the new tenant. The customer is seeing the screen remains blank and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-79",
+      "subject": "Webhook events are not arriving to our endpoint",
+      "description": "Customer reports that the issue started after the latest deploy and occurs on the login portal. They have tried using a different account."
+    },
+    {
+      "ticket_id": "NT-80",
+      "subject": "Download link points to wrong environment",
+      "description": "The issue is reproducible when using the mobile app in offline mode. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-81",
+      "subject": "Support portal search is returning no results",
+      "description": "The user states that a recurring timeout. The problem appears for desktop users only and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-82",
+      "subject": "System sends duplicate approval emails",
+      "description": "This started after a recent a failed deployment. The customer is seeing the data is stale and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-83",
+      "subject": "Support bot generates irrelevant suggestions",
+      "description": "Customer reports that the issue started after the latest deploy and occurs on the web dashboard. They have tried retrying after sign-out."
+    },
+    {
+      "ticket_id": "NT-84",
+      "subject": "Slack integration is not posting incidents",
+      "description": "Customer reports that the issue started today and occurs on their test workspace. They have tried using incognito mode."
+    },
+    {
+      "ticket_id": "NT-85",
+      "subject": "Mobile app cannot refresh dashboard",
+      "description": "This appears to affect a single customer workspace. Users are still able to do some tasks, but the data is stale."
+    },
+    {
+      "ticket_id": "NT-86",
+      "subject": "Webhook events are not arriving to our endpoint",
+      "description": "Customer is unable to complete the login flow and receives an error message saying HTTP 500."
+    },
+    {
+      "ticket_id": "NT-87",
+      "subject": "Report builder crashes with large date range",
+      "description": "Customer is unable to complete the monthly billing update and receives an error message saying timeout."
+    },
+    {
+      "ticket_id": "NT-88",
+      "subject": "Custom report keeps reloading endlessly",
+      "description": "The issue is reproducible when reopening the same case from a shared link. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-89",
+      "subject": "Email notifications not sending",
+      "description": "Customer reports that the issue started today and occurs on the mobile app. They have tried clearing cache."
+    },
+    {
+      "ticket_id": "NT-90",
+      "subject": "Support portal search is returning no results",
+      "description": "This started after a recent a configuration change. The customer is seeing a timeout error appears and wants a quick resolution."
+    },
+    {
+      "ticket_id": "NT-91",
+      "subject": "PDF generation fails for some invoices",
+      "description": "The issue is reproducible when running the export on a large dataset. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-92",
+      "subject": "Invoice PDF is blank when downloaded",
+      "description": "The account is impacted by a recurring timeout. It started after the migration to the new tenant and has been happening for the last after the latest deploy."
+    },
+    {
+      "ticket_id": "NT-93",
+      "subject": "File download fails on edge browser",
+      "description": "The issue is reproducible when reopening the same case from a shared link. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-94",
+      "subject": "Support inbox is not receiving new emails",
+      "description": "A customer working in the staging environment reported unexpected duplicate records. We need to confirm if this is isolated to one tenant or affects all users."
+    },
+    {
+      "ticket_id": "NT-95",
+      "subject": "Case severity flag is not saving",
+      "description": "This appears to affect only a few accounts. Users are still able to do some tasks, but a timeout error appears."
+    },
+    {
+      "ticket_id": "NT-96",
+      "subject": "API token stopped working overnight",
+      "description": "The issue is reproducible when reopening the same case from a shared link. Customer expects a workaround or fix as soon as possible."
+    },
+    {
+      "ticket_id": "NT-97",
+      "subject": "User can't download exported CSV",
+      "description": "Customer is unable to complete the login flow and receives an error message saying permission denied."
+    },
+    {
+      "ticket_id": "NT-98",
+      "subject": "Customer cannot upload profile photo",
+      "description": "Customer reports that the issue started after the weekend and occurs on the production tenant. They have tried clearing cache."
+    },
+    {
+      "ticket_id": "NT-99",
+      "subject": "System sends duplicate approval emails",
+      "description": "The user states that a login failure for a valid user. The problem appears for a single customer workspace and happens repeatedly during normal use."
+    },
+    {
+      "ticket_id": "NT-100",
+      "subject": "Account locked after repeated failed attempts",
+      "description": "A customer working in the login portal reported missing data in the latest report. We need to confirm if this is isolated to one tenant or affects all users."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+<div class="page">
+  <header class="page-header">
+    <h1>New Tickets Queue</h1>
+    <p class="subtitle">Select a ticket to find similar resolved tickets</p>
+    <a class="create-ticket-link" routerLink="/create-ticket">Create ticket</a>
+  </header>
+<br>
+  <!-- New Tickets grid -->
+  <section class="queue-section">
+    <div *ngIf="isLoadingQueue" class="state-message">Loading new tickets…</div>
+    <div *ngIf="queueError" class="state-message error">{{ queueError }}</div>
+
+    <div *ngIf="!isLoadingQueue && !queueError && queueTickets.length > 0" class="ticket-grid-tools">
+      <label>
+        <span>Filter tickets</span>
+        <input
+          type="search"
+          [(ngModel)]="filterText"
+          (ngModelChange)="onFilterChange()"
+          placeholder="Search ID, subject, or description"
+        />
+      </label>
+      <span class="sort-status">Sorted by ticket ID · newest first</span>
+    </div>
+
+    <table *ngIf="!isLoadingQueue && !queueError" class="grid">
+      <thead>
+        <tr>
+          <th>Ticket ID ↓</th>
+          <th>Subject</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          *ngFor="let ticket of pagedQueueTickets"
+          (click)="selectTicket(ticket)"
+          [class.selected]="selectedTicket?.ticket_id === ticket.ticket_id"
+        >
+          <td class="mono">{{ ticket.ticket_id }}</td>
+          <td>{{ ticket.subject }}</td>
+          <td>{{ ticket.description }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div
+      *ngIf="!isLoadingQueue && !queueError && queueTickets.length > 0 && totalFilteredTickets === 0"
+      class="state-message"
+    >
+      No tickets match your filter.
+    </div>
+
+    <nav
+      *ngIf="!isLoadingQueue && !queueError && totalFilteredTickets > pageSize"
+      class="pagination"
+      aria-label="New tickets pagination"
+    >
+      <span class="pagination-summary">
+        Showing {{ firstVisibleTicket }}–{{ lastVisibleTicket }} of {{ totalFilteredTickets }} tickets
+      </span>
+      <div class="pagination-controls">
+        <button
+          type="button"
+          (click)="previousPage()"
+          [disabled]="currentPage === 1"
+          aria-label="Previous page"
+        >
+          Previous
+        </button>
+        <span aria-live="polite">Page {{ currentPage }} of {{ totalPages }}</span>
+        <button
+          type="button"
+          (click)="nextPage()"
+          [disabled]="currentPage === totalPages"
+          aria-label="Next page"
+        >
+          Next
+        </button>
+      </div>
+    </nav>
+
+    <div *ngIf="!isLoadingQueue && !queueError && queueTickets.length === 0" class="state-message">
+      No new tickets available.
+    </div>
+  </section>
+
+  <!-- Similar tickets panel -->
+  <section #similarSection class="similar-section" *ngIf="selectedTicket">
+    <h2>Similar Resolved Tickets</h2>
+    <p class="similar-subtitle">
+      For: <strong>{{ selectedTicket.subject }}</strong>
+    </p>
+
+    <div *ngIf="isLoadingSimilar" class="state-message">Searching for similar tickets…</div>
+    <div *ngIf="similarError" class="state-message error">{{ similarError }}</div>
+
+    <div
+      *ngIf="!isLoadingSimilar && !similarError && similarTickets.length === 0"
+      class="state-message"
+    >
+      No confidently similar tickets found.
+    </div>
+
+    <div class="similar-list" *ngIf="!isLoadingSimilar && similarTickets.length > 0">
+      <a
+        *ngFor="let match of similarTickets"
+        class="similar-card"
+        [routerLink]="['/ticket', match.ticket_id]"
+        target="_blank"
+      >
+        <div class="similar-card-header">
+          <span class="mono">{{ match.ticket_id }}</span>
+          <span class="score">{{ formatScore(match.similarity_score) }} match</span>
+        </div>
+        <div class="similar-field">
+          <span class="similar-field-label">Subject</span>
+          <p class="similar-desc">{{ match.subject }}</p>
+        </div>
+        <div class="similar-field">
+          <span class="similar-field-label">Description</span>
+          <p class="similar-description">{{ match.description || 'No description provided.' }}</p>
+        </div>
+        <div class="similar-field">
+          <span class="similar-field-label">Resolution</span>
+          <p class="similar-solution">{{ match.resolution_notes }}</p>
+        </div>
+        <div class="similar-meta">
+          <span class="badge">{{ match.category }}</span>
+          <span>Status: {{ match.status }}</span>
+        </div>
+      </a>
+    </div>
+  </section>
+</div>

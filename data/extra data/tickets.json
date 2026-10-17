@@ -1,0 +1,2763 @@
+{
+  "tickets": [
+    {
+      "ticket_id": "T-2001",
+      "category": "auth",
+      "subject": "Login",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "login"
+      ],
+      "created_at": "2025-01-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2002",
+      "category": "auth",
+      "subject": "Password",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "password"
+      ],
+      "created_at": "2025-01-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2003",
+      "category": "auth",
+      "subject": "Reset",
+      "description": "The authentication flow used an outdated account or identity-provider setting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "reset"
+      ],
+      "created_at": "2025-01-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2004",
+      "category": "auth",
+      "subject": "Sso",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth"
+      ],
+      "created_at": "2025-01-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2005",
+      "category": "auth",
+      "subject": "Mfa",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth"
+      ],
+      "created_at": "2025-01-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2006",
+      "category": "auth",
+      "subject": "Account",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "account"
+      ],
+      "created_at": "2025-01-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2007",
+      "category": "auth",
+      "subject": "Session",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "session"
+      ],
+      "created_at": "2025-01-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2008",
+      "category": "auth",
+      "subject": "Verification",
+      "description": "The authentication flow used an outdated account or identity-provider setting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "verification"
+      ],
+      "created_at": "2025-01-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2009",
+      "category": "auth",
+      "subject": "Credential",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "credential"
+      ],
+      "created_at": "2025-01-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2010",
+      "category": "auth",
+      "subject": "Token",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "token"
+      ],
+      "created_at": "2025-01-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2011",
+      "category": "auth",
+      "subject": "Sign in",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "sign"
+      ],
+      "created_at": "2025-01-31",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2012",
+      "category": "auth",
+      "subject": "Identity",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "identity"
+      ],
+      "created_at": "2025-02-03",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2013",
+      "category": "auth",
+      "subject": "Access",
+      "description": "The authentication flow used an outdated account or identity-provider setting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "access"
+      ],
+      "created_at": "2025-02-06",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2014",
+      "category": "auth",
+      "subject": "Recovery",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "recovery"
+      ],
+      "created_at": "2025-02-09",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2015",
+      "category": "auth",
+      "subject": "Lockout",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "lockout"
+      ],
+      "created_at": "2025-02-12",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2016",
+      "category": "auth",
+      "subject": "Email",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "email"
+      ],
+      "created_at": "2025-02-15",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2017",
+      "category": "auth",
+      "subject": "Code",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "code"
+      ],
+      "created_at": "2025-02-18",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2018",
+      "category": "auth",
+      "subject": "Redirect",
+      "description": "The authentication flow used an outdated account or identity-provider setting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "redirect"
+      ],
+      "created_at": "2025-02-21",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2019",
+      "category": "auth",
+      "subject": "Password policy",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "password",
+        "policy"
+      ],
+      "created_at": "2025-02-24",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2020",
+      "category": "auth",
+      "subject": "Trusted device",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "trusted",
+        "device"
+      ],
+      "created_at": "2025-02-27",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2021",
+      "category": "auth",
+      "subject": "Federation",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "federation"
+      ],
+      "created_at": "2025-03-02",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2022",
+      "category": "auth",
+      "subject": "Callback",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "callback"
+      ],
+      "created_at": "2025-03-05",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2023",
+      "category": "auth",
+      "subject": "Enrollment",
+      "description": "The authentication flow used an outdated account or identity-provider setting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "enrollment"
+      ],
+      "created_at": "2025-03-08",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2024",
+      "category": "auth",
+      "subject": "Passkey",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "passkey"
+      ],
+      "created_at": "2025-03-11",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2025",
+      "category": "auth",
+      "subject": "Browser cookie",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "browser",
+        "cookie"
+      ],
+      "created_at": "2025-03-14",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2026",
+      "category": "auth",
+      "subject": "Auth domain",
+      "description": "The authentication flow used an outdated account or identity-provider setting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Updated the authentication configuration, refreshed the affected credential state, and verified sign-in.",
+      "tags": [
+        "auth",
+        "domain"
+      ],
+      "created_at": "2025-03-17",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2027",
+      "category": "sync",
+      "subject": "Salesforce",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "salesforce"
+      ],
+      "created_at": "2025-03-20",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2028",
+      "category": "sync",
+      "subject": "Sync",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync"
+      ],
+      "created_at": "2025-03-23",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2029",
+      "category": "sync",
+      "subject": "Hubspot",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "hubspot"
+      ],
+      "created_at": "2025-03-26",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2030",
+      "category": "sync",
+      "subject": "Connector",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "connector"
+      ],
+      "created_at": "2025-03-29",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2031",
+      "category": "sync",
+      "subject": "Data import",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "data",
+        "import"
+      ],
+      "created_at": "2025-04-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2032",
+      "category": "sync",
+      "subject": "Duplicate record",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "duplicate",
+        "record"
+      ],
+      "created_at": "2025-04-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2033",
+      "category": "sync",
+      "subject": "Missing updates",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "missing",
+        "updates"
+      ],
+      "created_at": "2025-04-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2034",
+      "category": "sync",
+      "subject": "Warehouse token",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "warehouse",
+        "token"
+      ],
+      "created_at": "2025-04-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2035",
+      "category": "sync",
+      "subject": "Scheduled job",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "scheduled"
+      ],
+      "created_at": "2025-04-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2036",
+      "category": "sync",
+      "subject": "Timezone cursor",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "timezone",
+        "cursor"
+      ],
+      "created_at": "2025-04-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2037",
+      "category": "sync",
+      "subject": "Source filter",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "source",
+        "filter"
+      ],
+      "created_at": "2025-04-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2038",
+      "category": "sync",
+      "subject": "Malformed row",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "malformed"
+      ],
+      "created_at": "2025-04-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2039",
+      "category": "sync",
+      "subject": "Crm reconnect",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "reconnect"
+      ],
+      "created_at": "2025-04-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2040",
+      "category": "sync",
+      "subject": "Retry checkpoint",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "retry",
+        "checkpoint"
+      ],
+      "created_at": "2025-04-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2041",
+      "category": "sync",
+      "subject": "Encoding",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "encoding"
+      ],
+      "created_at": "2025-05-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2042",
+      "category": "sync",
+      "subject": "Deleted record",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "deleted",
+        "record"
+      ],
+      "created_at": "2025-05-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2043",
+      "category": "sync",
+      "subject": "Field mapping",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "field",
+        "mapping"
+      ],
+      "created_at": "2025-05-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2044",
+      "category": "sync",
+      "subject": "Batch timeout",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "batch",
+        "timeout"
+      ],
+      "created_at": "2025-05-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2045",
+      "category": "sync",
+      "subject": "Certificate",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "certificate"
+      ],
+      "created_at": "2025-05-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2046",
+      "category": "sync",
+      "subject": "Authorization",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "authorization"
+      ],
+      "created_at": "2025-05-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2047",
+      "category": "sync",
+      "subject": "Backfill",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "backfill"
+      ],
+      "created_at": "2025-05-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2048",
+      "category": "sync",
+      "subject": "Incremental sync",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "incremental"
+      ],
+      "created_at": "2025-05-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2049",
+      "category": "sync",
+      "subject": "Source schema",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "source",
+        "schema"
+      ],
+      "created_at": "2025-05-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2050",
+      "category": "sync",
+      "subject": "Job queue",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "queue"
+      ],
+      "created_at": "2025-05-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2051",
+      "category": "sync",
+      "subject": "Sync window",
+      "description": "The connector configuration or synchronization checkpoint prevented the source data from being processed correctly. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the connector settings, replayed the affected records, and verified the next synchronization.",
+      "tags": [
+        "sync",
+        "window"
+      ],
+      "created_at": "2025-05-31",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2052",
+      "category": "render",
+      "subject": "Revenue chart",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "revenue",
+        "chart"
+      ],
+      "created_at": "2025-06-03",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2053",
+      "category": "render",
+      "subject": "Blank dashboard",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "blank",
+        "dashboard"
+      ],
+      "created_at": "2025-06-06",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2054",
+      "category": "render",
+      "subject": "Overlapping widgets",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "overlapping",
+        "widgets"
+      ],
+      "created_at": "2025-06-09",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2055",
+      "category": "render",
+      "subject": "Pie chart rounding",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "chart",
+        "rounding"
+      ],
+      "created_at": "2025-06-12",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2056",
+      "category": "render",
+      "subject": "Date filter",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "date",
+        "filter"
+      ],
+      "created_at": "2025-06-15",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2057",
+      "category": "render",
+      "subject": "Spinner",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "spinner"
+      ],
+      "created_at": "2025-06-18",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2058",
+      "category": "render",
+      "subject": "Chart tooltip",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "chart",
+        "tooltip"
+      ],
+      "created_at": "2025-06-21",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2059",
+      "category": "render",
+      "subject": "Table layout",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "table",
+        "layout"
+      ],
+      "created_at": "2025-06-24",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2060",
+      "category": "render",
+      "subject": "Theme colors",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "theme",
+        "colors"
+      ],
+      "created_at": "2025-06-27",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2061",
+      "category": "render",
+      "subject": "Loading skeleton",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "loading",
+        "skeleton"
+      ],
+      "created_at": "2025-06-30",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2062",
+      "category": "render",
+      "subject": "Truncated label",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "truncated",
+        "label"
+      ],
+      "created_at": "2025-07-03",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2063",
+      "category": "render",
+      "subject": "Report preview",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "report",
+        "preview"
+      ],
+      "created_at": "2025-07-06",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2064",
+      "category": "render",
+      "subject": "Responsive grid",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "responsive",
+        "grid"
+      ],
+      "created_at": "2025-07-09",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2065",
+      "category": "render",
+      "subject": "Stale chart",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "stale",
+        "chart"
+      ],
+      "created_at": "2025-07-12",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2066",
+      "category": "render",
+      "subject": "Legend position",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "legend",
+        "position"
+      ],
+      "created_at": "2025-07-15",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2067",
+      "category": "render",
+      "subject": "Widget order",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "widget",
+        "order"
+      ],
+      "created_at": "2025-07-18",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2068",
+      "category": "render",
+      "subject": "Print layout",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "print",
+        "layout"
+      ],
+      "created_at": "2025-07-21",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2069",
+      "category": "render",
+      "subject": "Metric rounding",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "metric",
+        "rounding"
+      ],
+      "created_at": "2025-07-24",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2070",
+      "category": "render",
+      "subject": "Filter panel",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "filter",
+        "panel"
+      ],
+      "created_at": "2025-07-27",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2071",
+      "category": "render",
+      "subject": "Chart colors",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "chart",
+        "colors"
+      ],
+      "created_at": "2025-07-30",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2072",
+      "category": "render",
+      "subject": "Empty state",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "empty",
+        "state"
+      ],
+      "created_at": "2025-08-02",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2073",
+      "category": "render",
+      "subject": "Canvas render",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "canvas"
+      ],
+      "created_at": "2025-08-05",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2074",
+      "category": "render",
+      "subject": "Dashboard header",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "dashboard",
+        "header"
+      ],
+      "created_at": "2025-08-08",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2075",
+      "category": "render",
+      "subject": "Font scale",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "font",
+        "scale"
+      ],
+      "created_at": "2025-08-11",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2076",
+      "category": "render",
+      "subject": "Color contrast",
+      "description": "The page rendering logic did not correctly handle the selected data, layout, or display configuration. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the rendering behavior and verified the affected view at the reported screen size.",
+      "tags": [
+        "render",
+        "color",
+        "contrast"
+      ],
+      "created_at": "2025-08-14",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2077",
+      "category": "billing",
+      "subject": "Duplicate charge",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "duplicate",
+        "charge"
+      ],
+      "created_at": "2025-08-17",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2078",
+      "category": "billing",
+      "subject": "Invoice seat count",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "invoice",
+        "seat",
+        "count"
+      ],
+      "created_at": "2025-08-20",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2079",
+      "category": "billing",
+      "subject": "Outdated address",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "outdated",
+        "address"
+      ],
+      "created_at": "2025-08-23",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2080",
+      "category": "billing",
+      "subject": "Subscription downgrade",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "subscription",
+        "downgrade"
+      ],
+      "created_at": "2025-08-26",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2081",
+      "category": "billing",
+      "subject": "Missing tax",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "missing"
+      ],
+      "created_at": "2025-08-29",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2082",
+      "category": "billing",
+      "subject": "Rounding credit",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "rounding",
+        "credit"
+      ],
+      "created_at": "2025-09-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2083",
+      "category": "billing",
+      "subject": "Payment method",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "payment",
+        "method"
+      ],
+      "created_at": "2025-09-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2084",
+      "category": "billing",
+      "subject": "Renewal refund",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "renewal",
+        "refund"
+      ],
+      "created_at": "2025-09-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2085",
+      "category": "billing",
+      "subject": "Billing contact",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "contact"
+      ],
+      "created_at": "2025-09-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2086",
+      "category": "billing",
+      "subject": "Failed payment",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "failed",
+        "payment"
+      ],
+      "created_at": "2025-09-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2087",
+      "category": "billing",
+      "subject": "Cancellation",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "cancellation"
+      ],
+      "created_at": "2025-09-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2088",
+      "category": "billing",
+      "subject": "Usage charge",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "usage",
+        "charge"
+      ],
+      "created_at": "2025-09-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2089",
+      "category": "billing",
+      "subject": "Postal code",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "postal",
+        "code"
+      ],
+      "created_at": "2025-09-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2090",
+      "category": "billing",
+      "subject": "Invoice download",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "invoice",
+        "download"
+      ],
+      "created_at": "2025-09-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2091",
+      "category": "billing",
+      "subject": "Proration",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "proration"
+      ],
+      "created_at": "2025-09-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2092",
+      "category": "billing",
+      "subject": "Tax line",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "line"
+      ],
+      "created_at": "2025-10-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2093",
+      "category": "billing",
+      "subject": "Trial date",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "trial",
+        "date"
+      ],
+      "created_at": "2025-10-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2094",
+      "category": "billing",
+      "subject": "Currency symbol",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "currency",
+        "symbol"
+      ],
+      "created_at": "2025-10-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2095",
+      "category": "billing",
+      "subject": "Invoice email",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "invoice",
+        "email"
+      ],
+      "created_at": "2025-10-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2096",
+      "category": "billing",
+      "subject": "Discount",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "discount"
+      ],
+      "created_at": "2025-10-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2097",
+      "category": "billing",
+      "subject": "Overdue account",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "overdue",
+        "account"
+      ],
+      "created_at": "2025-10-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2098",
+      "category": "billing",
+      "subject": "Charge preview",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "charge",
+        "preview"
+      ],
+      "created_at": "2025-10-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2099",
+      "category": "billing",
+      "subject": "Payment retry",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "payment",
+        "retry"
+      ],
+      "created_at": "2025-10-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2100",
+      "category": "billing",
+      "subject": "Seat proration",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "seat",
+        "proration"
+      ],
+      "created_at": "2025-10-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2101",
+      "category": "billing",
+      "subject": "Billing cycle",
+      "description": "The billing record or payment event was calculated using stale or inconsistent subscription information. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Reconciled the subscription and payment records, corrected the billing state, and verified the updated invoice.",
+      "tags": [
+        "billing",
+        "cycle"
+      ],
+      "created_at": "2025-10-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2102",
+      "category": "export",
+      "subject": "Csv missing rows",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "missing",
+        "rows"
+      ],
+      "created_at": "2025-10-31",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2103",
+      "category": "export",
+      "subject": "Duplicate contacts",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "duplicate",
+        "contacts"
+      ],
+      "created_at": "2025-11-03",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2104",
+      "category": "export",
+      "subject": "Broken download",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "broken",
+        "download"
+      ],
+      "created_at": "2025-11-06",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2105",
+      "category": "export",
+      "subject": "Unicode encoding",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "unicode",
+        "encoding"
+      ],
+      "created_at": "2025-11-09",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2106",
+      "category": "export",
+      "subject": "Export timeout",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "timeout"
+      ],
+      "created_at": "2025-11-12",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2107",
+      "category": "export",
+      "subject": "Date shift",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "date",
+        "shift"
+      ],
+      "created_at": "2025-11-15",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2108",
+      "category": "export",
+      "subject": "Restricted fields",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "restricted",
+        "fields"
+      ],
+      "created_at": "2025-11-18",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2109",
+      "category": "export",
+      "subject": "Leading zero",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "leading",
+        "zero"
+      ],
+      "created_at": "2025-11-21",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2110",
+      "category": "export",
+      "subject": "Total mismatch",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "total",
+        "mismatch"
+      ],
+      "created_at": "2025-11-24",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2111",
+      "category": "export",
+      "subject": "Large file",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "large",
+        "file"
+      ],
+      "created_at": "2025-11-27",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2112",
+      "category": "export",
+      "subject": "Pdf footer",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "footer"
+      ],
+      "created_at": "2025-11-30",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2113",
+      "category": "export",
+      "subject": "Locale delimiter",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "locale",
+        "delimiter"
+      ],
+      "created_at": "2025-12-03",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2114",
+      "category": "export",
+      "subject": "Empty export",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "empty"
+      ],
+      "created_at": "2025-12-06",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2115",
+      "category": "export",
+      "subject": "Quoted values",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "quoted",
+        "values"
+      ],
+      "created_at": "2025-12-09",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2116",
+      "category": "export",
+      "subject": "Stale report",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "stale",
+        "report"
+      ],
+      "created_at": "2025-12-12",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2117",
+      "category": "export",
+      "subject": "Export progress",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "progress"
+      ],
+      "created_at": "2025-12-15",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2118",
+      "category": "export",
+      "subject": "Blank column",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "blank",
+        "column"
+      ],
+      "created_at": "2025-12-18",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2119",
+      "category": "export",
+      "subject": "Multiline field",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "multiline",
+        "field"
+      ],
+      "created_at": "2025-12-21",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2120",
+      "category": "export",
+      "subject": "Wrong destination",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "wrong",
+        "destination"
+      ],
+      "created_at": "2025-12-24",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2121",
+      "category": "export",
+      "subject": "Currency precision",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "currency",
+        "precision"
+      ],
+      "created_at": "2025-12-27",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2122",
+      "category": "export",
+      "subject": "Null value",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "null",
+        "value"
+      ],
+      "created_at": "2025-12-30",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2123",
+      "category": "export",
+      "subject": "Failed download",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "failed",
+        "download"
+      ],
+      "created_at": "2026-01-02",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2124",
+      "category": "export",
+      "subject": "Header order",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "header",
+        "order"
+      ],
+      "created_at": "2026-01-05",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2125",
+      "category": "export",
+      "subject": "Page clipping",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "page",
+        "clipping"
+      ],
+      "created_at": "2026-01-08",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2126",
+      "category": "export",
+      "subject": "Duplicate job",
+      "description": "The export query or file serializer did not preserve the selected records and formatting. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the export query or serialization, regenerated the file, and validated the resulting data.",
+      "tags": [
+        "export",
+        "duplicate"
+      ],
+      "created_at": "2026-01-11",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2127",
+      "category": "perm",
+      "subject": "Shared report",
+      "description": "The resource access policy did not match the user's current role or group membership. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "shared",
+        "report"
+      ],
+      "created_at": "2026-01-14",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2128",
+      "category": "perm",
+      "subject": "Viewer access",
+      "description": "The resource access policy did not match the user's current role or group membership. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "viewer",
+        "access"
+      ],
+      "created_at": "2026-01-17",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2129",
+      "category": "perm",
+      "subject": "Former employee",
+      "description": "The resource access policy did not match the user's current role or group membership. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "former",
+        "employee"
+      ],
+      "created_at": "2026-01-20",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2130",
+      "category": "perm",
+      "subject": "Workspace role",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "workspace",
+        "role"
+      ],
+      "created_at": "2026-01-23",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2131",
+      "category": "perm",
+      "subject": "Project membership",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "project",
+        "membership"
+      ],
+      "created_at": "2026-01-26",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2132",
+      "category": "perm",
+      "subject": "Admin scope",
+      "description": "The resource access policy did not match the user's current role or group membership. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "admin",
+        "scope"
+      ],
+      "created_at": "2026-01-29",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2133",
+      "category": "perm",
+      "subject": "Folder link",
+      "description": "The resource access policy did not match the user's current role or group membership. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "folder",
+        "link"
+      ],
+      "created_at": "2026-02-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2134",
+      "category": "perm",
+      "subject": "Partner dashboard",
+      "description": "The resource access policy did not match the user's current role or group membership. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "partner",
+        "dashboard"
+      ],
+      "created_at": "2026-02-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2135",
+      "category": "perm",
+      "subject": "Stale workspace",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "stale",
+        "workspace"
+      ],
+      "created_at": "2026-02-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2136",
+      "category": "perm",
+      "subject": "Read only view",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "read",
+        "only",
+        "view"
+      ],
+      "created_at": "2026-02-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2137",
+      "category": "perm",
+      "subject": "Pending invitation",
+      "description": "The resource access policy did not match the user's current role or group membership. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "pending",
+        "invitation"
+      ],
+      "created_at": "2026-02-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2138",
+      "category": "perm",
+      "subject": "Api key scope",
+      "description": "The resource access policy did not match the user's current role or group membership. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "scope"
+      ],
+      "created_at": "2026-02-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2139",
+      "category": "perm",
+      "subject": "Ownership transfer",
+      "description": "The resource access policy did not match the user's current role or group membership. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "ownership",
+        "transfer"
+      ],
+      "created_at": "2026-02-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2140",
+      "category": "perm",
+      "subject": "Group sync",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "group",
+        "sync"
+      ],
+      "created_at": "2026-02-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2141",
+      "category": "perm",
+      "subject": "Contractor expiry",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "contractor",
+        "expiry"
+      ],
+      "created_at": "2026-02-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2142",
+      "category": "perm",
+      "subject": "Renamed account",
+      "description": "The resource access policy did not match the user's current role or group membership. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "renamed",
+        "account"
+      ],
+      "created_at": "2026-02-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2143",
+      "category": "perm",
+      "subject": "Integration admin",
+      "description": "The resource access policy did not match the user's current role or group membership. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "integration",
+        "admin"
+      ],
+      "created_at": "2026-03-03",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2144",
+      "category": "perm",
+      "subject": "Nested group",
+      "description": "The resource access policy did not match the user's current role or group membership. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "nested",
+        "group"
+      ],
+      "created_at": "2026-03-06",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2145",
+      "category": "perm",
+      "subject": "Attachment download",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "attachment",
+        "download"
+      ],
+      "created_at": "2026-03-09",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2146",
+      "category": "perm",
+      "subject": "Bulk role",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "bulk",
+        "role"
+      ],
+      "created_at": "2026-03-12",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2147",
+      "category": "perm",
+      "subject": "Workspace default",
+      "description": "The resource access policy did not match the user's current role or group membership. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "workspace",
+        "default"
+      ],
+      "created_at": "2026-03-15",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2148",
+      "category": "perm",
+      "subject": "Service account",
+      "description": "The resource access policy did not match the user's current role or group membership. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "service",
+        "account"
+      ],
+      "created_at": "2026-03-18",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2149",
+      "category": "perm",
+      "subject": "Revoked link",
+      "description": "The resource access policy did not match the user's current role or group membership. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "revoked",
+        "link"
+      ],
+      "created_at": "2026-03-21",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2150",
+      "category": "perm",
+      "subject": "Role reversion",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "role",
+        "reversion"
+      ],
+      "created_at": "2026-03-24",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2151",
+      "category": "perm",
+      "subject": "Ticket visibility",
+      "description": "The resource access policy did not match the user's current role or group membership. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "ticket",
+        "visibility"
+      ],
+      "created_at": "2026-03-27",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2152",
+      "category": "perm",
+      "subject": "Audit history",
+      "description": "The resource access policy did not match the user's current role or group membership. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the least-privilege access policy and verified the resource using the affected role.",
+      "tags": [
+        "perm",
+        "audit",
+        "history"
+      ],
+      "created_at": "2026-03-30",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2153",
+      "category": "perf",
+      "subject": "Slow dashboard",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "slow",
+        "dashboard"
+      ],
+      "created_at": "2026-04-02",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2154",
+      "category": "perf",
+      "subject": "Search latency",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "search",
+        "latency"
+      ],
+      "created_at": "2026-04-05",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2155",
+      "category": "perf",
+      "subject": "Ticket history timeout",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "ticket",
+        "history",
+        "timeout"
+      ],
+      "created_at": "2026-04-08",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2156",
+      "category": "perf",
+      "subject": "Large report",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "large",
+        "report"
+      ],
+      "created_at": "2026-04-11",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2157",
+      "category": "perf",
+      "subject": "Import contention",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "import",
+        "contention"
+      ],
+      "created_at": "2026-04-14",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2158",
+      "category": "perf",
+      "subject": "Hourly api spike",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "hourly",
+        "spike"
+      ],
+      "created_at": "2026-04-17",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2159",
+      "category": "perf",
+      "subject": "Large table",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "large",
+        "table"
+      ],
+      "created_at": "2026-04-20",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2160",
+      "category": "perf",
+      "subject": "Mobile dashboard",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "mobile",
+        "dashboard"
+      ],
+      "created_at": "2026-04-23",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2161",
+      "category": "perf",
+      "subject": "Filter delay",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "filter",
+        "delay"
+      ],
+      "created_at": "2026-04-26",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2162",
+      "category": "perf",
+      "subject": "Database cpu",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "database"
+      ],
+      "created_at": "2026-04-29",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2163",
+      "category": "perf",
+      "subject": "Worker memory",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "worker",
+        "memory"
+      ],
+      "created_at": "2026-05-02",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2164",
+      "category": "perf",
+      "subject": "Oversized bundle",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "oversized",
+        "bundle"
+      ],
+      "created_at": "2026-05-05",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2165",
+      "category": "perf",
+      "subject": "Slow save",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "slow",
+        "save"
+      ],
+      "created_at": "2026-05-08",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2166",
+      "category": "perf",
+      "subject": "Permission query",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "permission",
+        "query"
+      ],
+      "created_at": "2026-05-11",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2167",
+      "category": "perf",
+      "subject": "Pool exhaustion",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "pool",
+        "exhaustion"
+      ],
+      "created_at": "2026-05-14",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2168",
+      "category": "perf",
+      "subject": "Repeated scroll",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "repeated",
+        "scroll"
+      ],
+      "created_at": "2026-05-17",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2169",
+      "category": "perf",
+      "subject": "Missing index",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "missing",
+        "index"
+      ],
+      "created_at": "2026-05-20",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2170",
+      "category": "perf",
+      "subject": "Attachment preview",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "attachment",
+        "preview"
+      ],
+      "created_at": "2026-05-23",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2171",
+      "category": "perf",
+      "subject": "Notification queue",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "notification",
+        "queue"
+      ],
+      "created_at": "2026-05-26",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2172",
+      "category": "perf",
+      "subject": "Directory load",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "directory",
+        "load"
+      ],
+      "created_at": "2026-05-29",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2173",
+      "category": "perf",
+      "subject": "Vector search",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "vector",
+        "search"
+      ],
+      "created_at": "2026-06-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2174",
+      "category": "perf",
+      "subject": "Request size",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "request",
+        "size"
+      ],
+      "created_at": "2026-06-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2175",
+      "category": "perf",
+      "subject": "Cleanup lock",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "cleanup",
+        "lock"
+      ],
+      "created_at": "2026-06-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2176",
+      "category": "perf",
+      "subject": "Frontend render",
+      "description": "The affected operation was spending time on unnecessary queries, rendering, or background work. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Addressed the measured bottleneck and verified the operation using a representative workload.",
+      "tags": [
+        "perf",
+        "frontend",
+        "render"
+      ],
+      "created_at": "2026-06-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2177",
+      "category": "api",
+      "subject": "Unauthorized token",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "unauthorized",
+        "token"
+      ],
+      "created_at": "2026-06-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2178",
+      "category": "api",
+      "subject": "Missing webhook",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "missing",
+        "webhook"
+      ],
+      "created_at": "2026-06-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2179",
+      "category": "api",
+      "subject": "Server error",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "server",
+        "error"
+      ],
+      "created_at": "2026-06-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2180",
+      "category": "api",
+      "subject": "Retry rate limit",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "retry",
+        "rate",
+        "limit"
+      ],
+      "created_at": "2026-06-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2181",
+      "category": "api",
+      "subject": "Pagination cursor",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "pagination",
+        "cursor"
+      ],
+      "created_at": "2026-06-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2182",
+      "category": "api",
+      "subject": "Rejected key",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "rejected"
+      ],
+      "created_at": "2026-06-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2183",
+      "category": "api",
+      "subject": "Signature rotation",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "signature",
+        "rotation"
+      ],
+      "created_at": "2026-07-01",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2184",
+      "category": "api",
+      "subject": "Date format",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "date",
+        "format"
+      ],
+      "created_at": "2026-07-04",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2185",
+      "category": "api",
+      "subject": "Duplicate events",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "duplicate",
+        "events"
+      ],
+      "created_at": "2026-07-07",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2186",
+      "category": "api",
+      "subject": "Ignored filter",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "ignored",
+        "filter"
+      ],
+      "created_at": "2026-07-10",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2187",
+      "category": "api",
+      "subject": "Partial bulk",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "partial",
+        "bulk"
+      ],
+      "created_at": "2026-07-13",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2188",
+      "category": "api",
+      "subject": "Empty response",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "empty",
+        "response"
+      ],
+      "created_at": "2026-07-16",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2189",
+      "category": "api",
+      "subject": "Tls certificate",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "certificate"
+      ],
+      "created_at": "2026-07-19",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2190",
+      "category": "api",
+      "subject": "Event order",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "event",
+        "order"
+      ],
+      "created_at": "2026-07-22",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2191",
+      "category": "api",
+      "subject": "Unicode request",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "unicode",
+        "request"
+      ],
+      "created_at": "2026-07-25",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2192",
+      "category": "api",
+      "subject": "Key rotation",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "rotation"
+      ],
+      "created_at": "2026-07-28",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2193",
+      "category": "api",
+      "subject": "Stale read",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "stale",
+        "read"
+      ],
+      "created_at": "2026-07-31",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2194",
+      "category": "api",
+      "subject": "Missing schema",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "missing",
+        "schema"
+      ],
+      "created_at": "2026-08-03",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2195",
+      "category": "api",
+      "subject": "Webhook retry",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "webhook",
+        "retry"
+      ],
+      "created_at": "2026-08-06",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2196",
+      "category": "api",
+      "subject": "Cors preflight",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "cors",
+        "preflight"
+      ],
+      "created_at": "2026-08-09",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2197",
+      "category": "api",
+      "subject": "Scalar parameter",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The issue began after a recent configuration change in the production workspace.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "scalar",
+        "parameter"
+      ],
+      "created_at": "2026-08-12",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2198",
+      "category": "api",
+      "subject": "Content type",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. Multiple users reported the same behavior during normal business hours.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "content",
+        "type"
+      ],
+      "created_at": "2026-08-15",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2199",
+      "category": "api",
+      "subject": "Casing listener",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The problem started this week and is blocking a routine support task.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "casing",
+        "listener"
+      ],
+      "created_at": "2026-08-18",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2200",
+      "category": "api",
+      "subject": "Expired certificate",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer reproduced the behavior in a separate browser session.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "expired",
+        "certificate"
+      ],
+      "created_at": "2026-08-21",
+      "status": "resolved"
+    },
+    {
+      "ticket_id": "T-2201",
+      "category": "api",
+      "subject": "Response limit",
+      "description": "The API request, response contract, or event delivery configuration did not match the expected behavior. The customer confirmed the issue persists after signing out and back in.",
+      "resolution_notes": "Corrected the API handling or integration configuration and verified it with a representative request.",
+      "tags": [
+        "api",
+        "response",
+        "limit"
+      ],
+      "created_at": "2026-08-24",
+      "status": "resolved"
+    }
+  ]
+}
