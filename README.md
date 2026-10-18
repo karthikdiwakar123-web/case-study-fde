@@ -166,11 +166,24 @@ project-root/
 
 ## Prerequisites
 
-- Python 3.10+
-- Node.js and npm
+- The latest stable version of Visual Studio Code
+- Python 3.14
+- Node.js 24 and npm (required by Angular CLI)
+- Angular CLI installed globally (`@angular/cli`)
 - SQL Server LocalDB
-- ODBC Driver for SQL Server
+- Microsoft ODBC Driver 17 for SQL Server (the app's configured driver name is
+  `ODBC Driver 17 for SQL Server`)
 - Internet access once the first time to download the embedding model
+
+Install Angular CLI globally with:
+
+```powershell
+npm install --global @angular/cli
+```
+
+The global Angular CLI is used by the root `npm run dev:frontend` script. If you
+run `npm start` from `frontend` instead, its project-local CLI is used after
+`npm install`, so a global CLI is not necessary for that workflow.
 
 ---
 
@@ -190,14 +203,15 @@ pip install -r requirements.txt
 The backend requirements include:
 
 - fastapi
-- uvicorn
+- pydantic
 - sqlalchemy
 - pyodbc
 - python-dotenv
-- pandas
-- openpyxl
 - numpy
 - sentence-transformers
+- uvicorn
+
+Pip also installs the transitive dependencies required by these packages.
 
 ### 2. Create the LocalDB instance and database
 
