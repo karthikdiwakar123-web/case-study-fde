@@ -13,7 +13,7 @@ from sentence_transformers import SentenceTransformer, util
 from database import SessionLocal, Ticket
 
 MODEL_NAME = "all-MiniLM-L6-v2"
-SIMILARITY_THRESHOLD = 0.45      # below this, we don't consider it a confident match
+SIMILARITY_THRESHOLD = 0.10      # intentionally loose for demo mode: surface weak but relevant matches
 CATEGORY_BOOST = 1.15           # multiplier applied when category matches
 
 # Module-level state, populated once by load_index() at FastAPI startup.

@@ -52,11 +52,16 @@ embeddings in matching order. When the frontend requests matches, the backend bu
 text from the new ticket's subject and description, encodes it with the same model,
 and computes cosine similarity against the historical vectors.
 
-The results are sorted by score. Candidates below the configured `0.45` threshold
+The results are sorted by score. Candidates below the configured `0.10` threshold
 are excluded; tickets without resolution notes are skipped; and up to five results
-are returned. An optional exact-category match can multiply a score by `1.15`, though
-the current new-ticket UI does not provide a category, so this boost is not normally
-used in that flow.
+are returned. The deliberately low threshold is used for the demo scenario discussed
+here—finding a resolved download/browser issue even when a new ticket describes the
+problem with different wording. For example, the query about files not downloading in
+a browser returned T-2145 (“Attachment download”) with a score of `0.3925`. This
+threshold surfaces weaker candidates, so agents must assess whether each result is
+actually useful. An optional exact-category match can multiply a score by `1.15`,
+though the current new-ticket UI does not provide a category, so this boost is not
+normally used in that flow.
 
 The frontend presents the resolved examples as decision support. Creating a new
 ticket stores its embedding; resolving it moves the ticket into historical `Tickets`
@@ -93,11 +98,12 @@ its measured scale justified one.
 
 ### Threshold, top-five limit, and category boost
 
-The `0.45` threshold and five-result limit make the demo output manageable, but they
-are heuristics rather than values validated with agents. The optional category
-multiplier can help when labels are reliable; it can also elevate a weaker semantic
-match. Category is not currently carried through the new-ticket form and resolution
-flow, so category-based ranking is not fully wired end to end.
+The `0.10` threshold and five-result limit are demo heuristics rather than values
+validated with agents. The intentionally permissive threshold can increase recall,
+but it also makes weaker or false-positive candidates more likely. The optional
+category multiplier can help when labels are reliable; it can also elevate a weaker
+semantic match. Category is not currently carried through the new-ticket form and
+resolution flow, so category-based ranking is not fully wired end to end.
 
 ### Agent remains in control
 

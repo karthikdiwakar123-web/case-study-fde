@@ -58,13 +58,15 @@ a 384-number vector.
 
 The module also defines two ranking settings:
 
-- `SIMILARITY_THRESHOLD = 0.45`: matches with a score below this are not returned.
+- `SIMILARITY_THRESHOLD = 0.10`: a deliberately loose threshold for demo mode, to surface weaker but still potentially relevant matches.
 - `CATEGORY_BOOST = 1.15`: a matching category multiplies a ticket's score by 1.15.
 
-The category multiplier changes ranking; it does not make the search faster. The
-current new-ticket table and UI do not provide a category for selected new tickets, so
-the frontend's normal similarity-search request does not use this boost. See the
-category discussion below.
+This lower threshold is intentionally chosen for exploration and testing so that near-miss
+matches remain visible even when the semantic overlap is soft. In a production system you
+would usually raise this value to reduce noise and false positives. The category multiplier
+changes ranking; it does not make the search faster. The current new-ticket table and UI
+do not provide a category for selected new tickets, so the frontend's normal
+similarity-search request does not use this boost. See the category discussion below.
 
 ### 2. Build consistent text
 
@@ -187,7 +189,7 @@ probability or guaranteed “percent match.”
 After calculating the scores, the code:
 
 1. Sorts historical tickets from highest score to lowest.
-2. Stops when it reaches a score below `0.45`.
+2. Stops when it reaches a score below `0.10`.
 3. Skips tickets without `resolution_notes`, since the feature is intended to surface
    useful resolved cases.
 4. Adds ticket ID, subject, description, category, status, resolution notes, and the
@@ -213,7 +215,7 @@ with the historical ticket vectors. It might rank results like this:
 |---|---:|---|
 | “Printer goes offline from wireless network” | 0.78 | Returned if it has resolution notes |
 | “Laptop drops VPN connection” | 0.51 | Returned if it has resolution notes and fits in the top five |
-| “Invoice has an incorrect total” | 0.18 | Excluded because it is below 0.45 |
+| “Invoice has an incorrect total” | 0.18 | Eligible by threshold, but returned only if it fits in the top five |
 
 These scores are illustrative, not measured results from the current dataset. The
 returned ticket includes its description and resolution so the agent can judge whether
@@ -231,7 +233,7 @@ the match is useful.
 | Semantic search | Search based on meaning rather than requiring exact keyword overlap. |
 | Inference / encoding | Applying the already-trained model to new text to produce its embedding. |
 | Cosine similarity | A score comparing the directions of two vectors; used here to rank candidate tickets. |
-| Threshold | A minimum score required for a candidate to be considered. The current value is `0.45`. |
+| Threshold | A minimum score required for a candidate to be considered. The current demo value is `0.10`. |
 | Ranking boost | A score adjustment that can move a candidate higher in the results. The category multiplier is `1.15`. |
 | In-memory index | The IDs, ticket details, and vector matrix held in the backend process so searches can compare against them without reading all vectors from the database on each request. |
 | Vectorized computation | Performing the same numerical operation across many vectors efficiently, rather than looping through every individual number in Python. |
@@ -473,13 +475,13 @@ Assume:
 _ticket_ids = ["T-1001", "T-1002", "T-1003"]
 scores = [0.42, 0.81, 0.56]
 ranked_indices = [1, 2, 0]
-SIMILARITY_THRESHOLD = 0.45
+SIMILARITY_THRESHOLD = 0.10
 ```
 
 1. `idx = 1`: score is `0.81`; look up `T-1002`; if its resolution notes exist, add
    that ticket to `results`.
 2. `idx = 2`: score is `0.56`; look up `T-1003`; if its resolution notes exist, add it.
-3. `idx = 0`: score is `0.42`; this is below `0.45`, so `break` stops the loop.
+3. `idx = 0`: score is `0.42`; this is above `0.10`, so the ticket remains eligible if it has resolution notes and fits within the five-result limit.
 
 The function returns the qualifying result dictionaries. The returned order is ranked
 by score, not by ticket ID or database insertion order.
@@ -488,7 +490,7 @@ by score, not by ticket ID or database insertion order.
 
 - **Similarity is not certainty.** The score is not a probability and does not prove
   that two tickets have the same cause or solution.
-- **The threshold is a heuristic.** `0.45` is a configurable cutoff, not a universal
+- **The threshold is a heuristic.** `0.10` is a deliberately loose demo cutoff, not a universal
   definition of a good match. Its usefulness depends on this model and the ticket
   content.
 - **The model can miss domain-specific context.** It is a general pretrained model,
