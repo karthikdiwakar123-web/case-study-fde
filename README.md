@@ -4,6 +4,8 @@ An AI-powered support tool that helps agents find the most similar historical ti
 
 Full-stack project: FastAPI + SQL Server LocalDB backend, Angular frontend.
 
+Sandbox location: This project code resides in the sandbox at `D:\case-study-support-ticket-fde\case-study-fde`.
+
 ---
 
 ## Table of contents
