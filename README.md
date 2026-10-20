@@ -6,6 +6,10 @@ Full-stack project: FastAPI + SQL Server LocalDB backend, Angular frontend.
 
 Sandbox location: This project code resides in the sandbox at `D:\case-study-support-ticket-fde\case-study-fde`.
 
+For a standalone, beginner-friendly guide to installing the prerequisites,
+configuring LocalDB, seeding data, generating embeddings, and running the project
+on a new Windows machine, see [SETUP_GUIDE.md](./SETUP_GUIDE.md).
+
 ---
 
 ## Table of contents
